@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src/",
+        "sourceMap": true,
+        "module": "esnext",
+        "target": "es5",
+        "jsx": "react",
+        "allowJs": true,
+        "moduleResolution": "Node",
+        "experimentalDecorators":true,
+        "allowSyntheticDefaultImports":true,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "lib": [
+            "es6",
+            "es2017",
+            "dom"
+        ]
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
